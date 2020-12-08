@@ -1,0 +1,101 @@
+* {
+    font-family: 微軟正黑體;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(202, 202, 202);
+}
+
+.nav {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 10px;
+    top: 0%;
+    z-index: 1000;
+    box-shadow: 0px 1px 5px 0.1px gray;
+    line-height: 50px;
+
+}
+
+.icon1 {
+    position: absolute;
+    right: 160px;
+    padding: 5px;
+}
+
+.icon2 {
+    position: absolute;
+    right: 100px;
+    padding: 5px;
+}
+
+.icon3 {
+    position: absolute;
+    right: 40px;
+    padding: 5px;
+}
+
+.icon1:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.icon2:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.icon3:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.h1 {
+    position: absolute;
+    margin: 15px 130px;
+    top: 110px;
+
+}
+
+.container {
+    display: flex;
+    margin: 0px auto;
+    height: auto;
+    padding: 180px 120px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: none;
+    position: relative;
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 3px 2px 5px 0.3px gray;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.card p {
+    padding: 0px 10px;
+}
+
+.card p:hover {
+    color: tomato;
+}
+
+.card img {
+    width: 400px;
+    height: auto;
+}
+
+.card img:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 1s;
+}
